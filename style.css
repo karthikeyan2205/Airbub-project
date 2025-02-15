@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    display: flex;
+    position: static;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    position: sticky ;
+    top: 0;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+h1{
+    color: #ff4668;
+}
+.searchbar{    
+    display: flex;    
+    border: solid black 2px;
+    width: 30%;
+    border-radius: 30px;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.icons{
+    color: gray;
+    padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.filterbox{
+    transition-duration: 1s;
+}
+.filterbox:hover{
+    font-size: 20px;
+    color: black;
+}
+.box{
+    text-align: center;
+}
+.rooms{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.boxs{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;    
+}
+img{
+    border-radius: 30px;
+    transition-duration: 2s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.footer{
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
